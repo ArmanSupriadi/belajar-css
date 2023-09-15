@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:#ffffff;
+            font-family: sans-serif;
+        }
+        .container{
+            width: 800px;
+            margin: 0px auto;
+            padding-top: 50px;
+            display: flex;
+        }
+        .gambar{
+            width: 50%; 
+        }
+        .img-themes {
+            width: 90%;
+        }
+        .card-wrapper{
+            width: 48%;
+        }
+        .card {
+            border-style: solid;
+            border-color: #f0f0f0;
+            border-width: 2px;
+            text-align: center;
+            background-color:white;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .logo {
+            width: 150px;
+        }
+        .form {
+            margin-top: 30px ;
+        }
+        .input {
+            width :300px;
+            height: 20px;
+            border : 1px solid grey;
+            border-radius: 5px;
+            padding : 4px;
+            margin-top: 10px;
+            background-color: #fafafa;
+        }
+
+        .btn {
+            background-color:#4cb5f9 ;
+            border: 0px solid transparent;
+            margin-top: 20px;
+            width: 310px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        .login-with {
+            text-decoration: none;
+        }
+        .link-forgot {
+            text-decoration: none;
+        }
+        .link-signup {
+            text-decoration: none;
+        }
+        .link-app {
+            margin-left: 140px;
+            margin-top: 20px;
+        }
+        .logo-app {
+            margin-left: 60px;
+            margin-top: 20px;
+
+        }
+        .footer {
+            padding:40px 0;
+            background-color:#ffffff;
+            color:#4b4c4d;
+        }
+        .footer ul {
+            list-style:none;
+            text-align:center;
+            margin-left: 170px;
+        }
+        .footer li {
+            padding: 0 10px;
+            float: left;
+            font-size: small;
+        }
+        .footer ul a {
+            color:inherit;
+            text-decoration:none;
+            opacity:0.8;
+        }
+
+        .footer .copyright {
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:#aaa;
+        margin-bottom:0;
+        padding-top: 30px;
+        margin-left: 500px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gambar">
+            <img src="img/hp-ig.png" class="img-themes" alt="">
+        </div>
+        <div class="card-wrapper">
+            <div class="card">
+                <img src="img/Instagram_logo.svg.png" class="logo" alt="">
+
+                <div class="form">
+                    <input type="text" class="input" placeholder="Phone Number, username or email">
+                    <input type="password" class="input" placeholder="Password"><br>
+                    <button class="btn">Log in</button>
+                </div>
+
+                <p>OR</p>
+
+                <a href="" class="login-with"><i class="fa-brands fa-square-facebook"></i>Login with Facebook</a>
+                <br><br>
+                <a href="" class="link-forgot">Forgot password?</a>
+            </div>
+            <br>
+            <div class="card">
+                <p>Don't have an account ? <a href="" class="link-signup">Sign up</a></p>
+            </div>
+            <div class="link-app">
+                <p>Get the app.</p>
+            </div>
+            <div class="logo-app">
+                <img src="img/logo-app.png" class="img-app">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Meta</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Blog</a></li>
+                <li class="list-inline-item"><a href="#">Jobs</a></li>
+                <li class="list-inline-item"><a href="#">API</a></li>
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Location</a></li>
+                <li class="list-inline-item"><a href="#">Instagram Lite</a></li>
+                <li class="list-inline-item"><a href="#">Threads</a></li>
+                <li class="list-inline-item"><a href="#">Contact Uploading & Non-Users</a></li>
+                <li class="list-inline-item"><a href="#">Meta Verified</a></li>
+            </ul>
+            <ul class="copyright">
+                <li>English</li>
+                <li>&copy; Instagram from Meta</li>
+                
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
